@@ -16,7 +16,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.home>/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home</java.home>
+        <java.home>/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home</java.home>
     </properties>
 
     <dependencies>
