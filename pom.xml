@@ -16,7 +16,6 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-<!--        <java.home>/Library/Java/JavaVirtualMachines/jdk-15.jdk/Contents/Home</java.home>-->
     </properties>
 
     <dependencies>
@@ -25,6 +24,7 @@
             <groupId>com.sun</groupId>
             <artifactId>tools</artifactId>
             <version>1.6.0</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
@@ -53,10 +53,6 @@
                     <target>${java.version}</target>
                     <encoding>UTF-8</encoding>
                     <maxmem>1024m</maxmem>
-                    <!--                    <compilerArguments>-->
-                    <!--                        &lt;!&ndash; jdk8 => ${java.home}/jre/lib/rt.jar:${java.home}/jre/lib/jce.jar:${java.home}/lib/tools.jar &ndash;&gt;-->
-                    <!--                        <bootclasspath>${java.home}/lib/jrt-fs.jar</bootclasspath>-->
-                    <!--                    </compilerArguments>-->
                 </configuration>
             </plugin>
 
