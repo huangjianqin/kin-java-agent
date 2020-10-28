@@ -56,7 +56,8 @@
                     <encoding>UTF-8</encoding>
                     <maxmem>1024m</maxmem>
                     <compilerArguments>
-                        <bootclasspath>${java.home}/jre/lib/rt.jar:${java.home}/jre/lib/jce.jar:${java.home}/lib/tools.jar</bootclasspath>
+                        <!-- jdk8 => ${java.home}/jre/lib/rt.jar:${java.home}/jre/lib/jce.jar:${java.home}/lib/tools.jar -->
+                        <bootclasspath>${java.home}/lib/jrt-fs.jar</bootclasspath>
                     </compilerArguments>
                 </configuration>
             </plugin>
