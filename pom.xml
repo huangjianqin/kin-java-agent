@@ -50,7 +50,7 @@
                 <configuration>
                     <archive>
                         <manifestEntries>
-                            <Agent-Class>org.kin.framework.hotswap.agent.JavaDynamicAgent</Agent-Class>
+                            <Agent-Class>org.kin.agent.JavaDynamicAgent</Agent-Class>
                             <Can-Redefine-Classes>true</Can-Redefine-Classes>
                             <Can-Retransform-Classes>true</Can-Retransform-Classes>
                         </manifestEntries>

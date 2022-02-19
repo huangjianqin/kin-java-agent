@@ -1,4 +1,4 @@
-package org.kin.framework.hotswap.agent;
+package org.kin.agent;
 
 import java.lang.instrument.Instrumentation;
 
