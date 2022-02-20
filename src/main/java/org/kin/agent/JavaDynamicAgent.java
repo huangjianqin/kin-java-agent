@@ -12,9 +12,6 @@ public class JavaDynamicAgent {
     /** 充当锁的单例 */
     private static final Object LOCK = new Object();
 
-    /**
-     * 方法必须叫agentmain
-     */
     public static void agentmain(String args, Instrumentation inst) {
         synchronized (LOCK) {
             if (instrumentation == null) {
